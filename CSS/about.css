@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(97, 22, 22);
+    background-image: url(../Images/a.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+}
+.main{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 55px;
+}
+.about-p{
+    font-size: 28px;
+}
+.main::first-letter{
+    color: rgb(67, 226, 14);
+    font-size: 60px;
+}
+
+.about{
+    text-align: center;
+    color: aliceblue;
+    font-family: poppins;
+    background-color: rgba(0, 0, 0, 0.382);
+    width: 60%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 36px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.member-header{
+    
+    background-color: rgba(0, 0, 0, 0.382);
+    text-align: center;
+    margin-top: 75px;
+    font-family: poppins;
+    padding: 20px;
+
+}
+.team{
+    margin-top: 25px;
+}
+.profile-pic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 50%;
+    background-image: url(../Images/pp.avif);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    text-align: center;
+    color: rgb(219, 144, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 29px;
+    margin-bottom: 6px;
+
+}
+p::first-letter{
+    color: rgb(42, 225, 18);
+}
+p{
+    margin-top: 0;
+    font-size: 19px;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: poppins;
+}
+hr{
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: rgba(23, 182, 52, 0.842);
+    border: none;
+    height: 2px;
+}
+table{
+    margin-top: 35px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+th,td{
+    border: 2px solid rgb(0, 0, 0);
+    font-family: poppins;
+    padding: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+th{
+    color: white;
+}
+td{
+    color: white;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgba(132, 132, 132, 0.456);
+}
+tr:nth-child(odd){
+    background-color: rgba(66, 66, 66, 0.266);
+}
+
+#row1{
+    background-color: rgba(68, 255, 0, 0.486);
+    color: rgb(9, 255, 0);
+}
+td:hover{
+    background-color: rgba(236, 236, 236, 0.626);
+}
+.table-a:hover{
+    color: rgb(6, 164, 11);
+    font-weight: bolder;
+    text-decoration:underline;
+}
+footer{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.937);
+}
+img{
+    margin-top: 0;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+.icon{ 
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.copyright{
+    color: black;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: poppins;
+}
+.copyright::first-letter{
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    background: linear-gradient(rgba(76, 252, 0, 0),rgba(0, 0, 0, 0.399));
+    padding: 30px;
+    margin: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
